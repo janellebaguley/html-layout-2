@@ -11,7 +11,7 @@ header {
     justify-content: space-evenly;
     position: fixed;
     color: white;
-    letter-spacing: .25em
+    word-spacing: 1em
 }
 .container-box {
     height: 200px;
@@ -40,13 +40,16 @@ button {
     background-color: black;
     color: white;
     border: white 1px solid;
-    margin: 0 0 0 30px;
+    margin: 10px 0 0 30px;
 }
 h5 {
     font: 12px Arial;
     font-weight: 400;
     font-style: normal;
     text-align: left;
+}
+h4 {
+    margin: 0 0 20px 0;
 }
 h6 {
     font: 10px Arial;
@@ -59,8 +62,8 @@ h3 {
     font-style: normal;
 }
 .container-box2 {
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 400px;
     display: block;
     flex-direction: column;
     color: white;
@@ -71,15 +74,16 @@ h3 {
     justify-content: space-evenly;
 }
 .container-box3 {
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 400px;
     display: block;
     flex-direction: column;
     flex-wrap: wrap;
     color: white;
     box-sizing: content-box;
     align-items: left;
-    margin: 400px 10px 40px 80%;
+    margin: 400px 50px 40px 60%;
+    word-spacing: .5em;
 }
 footer {
     width: 100%;
@@ -88,4 +92,5 @@ footer {
     justify-content: space-around;
     color: white;
     margin: 0 20px 0 20px;
+    word-spacing: 1em;
 }
